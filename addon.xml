@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mijnrepo" name="Mijn Repository" version="1.0.0" provider-name="Mijn Naam">
+   <extension point="xbmc.addon.repository" name="Mijn Repository">
+		<dir>
+			<info compressed="false">mijn.githublink/addons.xml</info>
+			<checksum>mijn.githublink/addons.xml.md5</checksum>
+			<datadir zip="true">mijn.githublink</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+    <summary lang="en">Voorbeeld Repo</summary>
+    <description lang="en">Dit is een voorbeeld repo met de youtube addon voor Kodi</description>
+    <platform>all</platform>
+  </extension>
+</addon>
